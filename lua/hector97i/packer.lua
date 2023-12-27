@@ -18,7 +18,6 @@ return require('packer').startup(function(use)
 	  -- 	  vim.cmd('colorscheme rose-pine')
 	  -- end
   })
-  use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use 'doums/darcula'
   use 'nvim-treesitter/playground'
