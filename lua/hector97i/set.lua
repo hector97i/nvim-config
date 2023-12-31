@@ -31,4 +31,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 vim.opt.wrap = true
 vim.opt.linebreak = true
+vim.opt.ts = 4
+vim.opt.sw = 4
 

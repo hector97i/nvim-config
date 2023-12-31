@@ -46,6 +46,8 @@ return require('packer').startup(function(use)
 	  "neovim/nvim-lspconfig",
   }
   use "nvim-lualine/lualine.nvim"
+  use { 'junegunn/fzf', run = ":call fzf#install()" }
+  use "junegunn/fzf.vim"
 
 end)
 
