@@ -48,6 +48,7 @@ return require('packer').startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use { 'junegunn/fzf', run = ":call fzf#install()" }
   use "junegunn/fzf.vim"
+  use "f-person/git-blame.nvim"
 
 end)
 
