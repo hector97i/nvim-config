@@ -49,6 +49,8 @@ return require('packer').startup(function(use)
   use { 'junegunn/fzf', run = ":call fzf#install()" }
   use "junegunn/fzf.vim"
   use "f-person/git-blame.nvim"
+  use { "ellisonleao/gruvbox.nvim" }
+  use { "github/copilot.vim" }
 
 end)
 
