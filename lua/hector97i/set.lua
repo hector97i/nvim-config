@@ -33,4 +33,5 @@ vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.ts = 4
 vim.opt.sw = 4
+vim.opt.ff = "unix"
 
