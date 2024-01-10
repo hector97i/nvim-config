@@ -51,6 +51,16 @@ return require('packer').startup(function(use)
   use "f-person/git-blame.nvim"
   use { "ellisonleao/gruvbox.nvim" }
   use { "github/copilot.vim" }
+  use {
+      'folke/todo-comments.nvim',
+      requires = 'nvim-lua/plenary.nvim',
+      config = function()
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+      end
+  }
+  require("todo-comments").setup()
 
 end)
 
