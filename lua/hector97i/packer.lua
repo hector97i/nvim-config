@@ -62,6 +62,7 @@ return require('packer').startup(function(use)
       end
   }
   require("todo-comments").setup()
+  use { "mhinz/vim-signify" }
 
 end)
 
