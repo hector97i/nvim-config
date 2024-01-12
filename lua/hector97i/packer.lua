@@ -51,6 +51,7 @@ return require('packer').startup(function(use)
   use "f-person/git-blame.nvim"
   use { "ellisonleao/gruvbox.nvim" }
   use { "github/copilot.vim" }
+  use { "nvim-treesitter/nvim-treesitter-context" }
   use {
       'folke/todo-comments.nvim',
       requires = 'nvim-lua/plenary.nvim',
