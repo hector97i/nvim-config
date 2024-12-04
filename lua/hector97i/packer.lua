@@ -63,6 +63,7 @@ return require('packer').startup(function(use)
   }
   require("todo-comments").setup()
   use { "mhinz/vim-signify" }
+  use { "mhartington/formatter.nvim" }
 
 end)
 
